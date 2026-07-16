@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Base CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap');
+
+        body {
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .main-section {
+            padding: 20px;
+        }
+
+        .image-container {
+            height: 500px;
+            background-image: url('immagini/rotterdam.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .nav-link:link {
+            text-decoration: none;
+            color: #295775;
+        }
+
+        .nav-link:visited {
+            color: #ec886e;
+        }
+
+        h1 {
+            font-family: 'Prata', serif;
+            font-size: 64px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        h3 {
+            font-family: 'Prata', serif;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0px;
+        }
+
+        h1,
+        h3 {
+            margin-bottom: 0;
+        }
+
+        h6 {
+            padding: 22px;
+            margin-top: 56px;
+            margin-bottom: 0;
+            color: white;
+            border-radius: 6px;
+            background: linear-gradient(to right, #ec886e, #3a3029);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 22px;
+            border-bottom: 1px solid #dfdfdf;
+        }
+
+        .home-container {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-section">
+        <div class="image-container" alt="Rotterdam"></div>
+        <h1>
+            - ROTTERDAM -
+        </h1>
+        <h3>
+            Rotterdam is a major port city in the Dutch province of South Holland. It is known for its modern
+            architecture, maritime heritage, and vibrant cultural scene. The city has a rich history and is home to
+            numerous
+            museums, galleries, and theaters. Rotterdam is also famous for its innovative urban planning and sustainable
+            initiatives, making it a dynamic and forward-thinking city.
+        </h3>
+        <p>
+            IMG.Credit to:
+            <span style="color:blue; font-weight: 600; font-style: italic;">
+                <a class="nav-link" href="https://github.com/lucaligabo">
+                    Luca Ligabò
+                </a>
+            </span>
+        </p>
+        <h6>
+            Luoghi Correlati:
+        </h6>
+        <ul>
+            <li><a class="nav-link" href="./centraal_station.html">Amsterdam Centraal (Train station)</a></li>
+            <li><a class="nav-link" href="./piazza_dam.html">Dam Square</a></li>
+            <li><a class="nav-link" href="./zaandam.html">Zaandam</a></li>
+            <li><a class="nav-link" href="./rotterdam.html">Rotterdam</a></li>
+        </ul>
+
+    </div>
+    
+    <div class="home-container">
+        <a class="nav-link" href="./home_page.html">Torna alla HomePage</a>
+    </div>
+
+    <footer>
+        <p>© 2024 Luca Ligabò. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

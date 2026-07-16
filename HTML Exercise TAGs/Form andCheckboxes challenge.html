@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and Inputs Fields</title>
+</head>
+
+<body bgcolor="black">
+    <h1 style="color: #d12525; text-align: center; font-family: times new roman;">
+        --- LET'S HEAR YOUR MUSIC TASTE ---
+    </h1>
+    <p style="color: white; text-align: center; font-family: times new roman;">
+        Benvenuto! In questa semplice pagina puoi condividere il tuo gusto musicale!<br>
+        Compila il form qui sotto, e facci quel'è la colonna sonora della tua vita!<br>
+    <div>
+        <h4 style="color: white; text-align: center; font-family: times new roman;">
+            - Iniziamo:
+        </h4>
+    </div>
+    </p>
+    <form onsubmit="alert('La tua colonna sonora è stata inviata nell\'Etere. Grazie!'); return false;">
+        <div align="center">
+            <input type="text" placeholder="Il tuo Nome">
+            <input type="text" placeholder="Il tuo Cognome">
+        </div>
+        <div align="center">
+            <input type="email" placeholder="Il tuo indirizzo mail">
+            <input type="password" placeholder="La tua password">
+        </div>
+        <div align="center">
+            <input type="number" placeholder="Il tuo Numero di Telefono">
+        </div>
+        <div align="center">
+            <input type="date" placeholder="La tua data di nascita">
+        </div>
+        <h4 style="color: white; text-align: center; font-family: times new roman;">
+            - Facci sapere come'è composta la tua colonna sonora della vita!
+        </h4>
+        <div align="center">
+            <input type="checkbox" id="rock" name="rock" value="rock">
+            <label for="rock" style="color: white;">ROCK</label>
+            <input type="checkbox" id="metal" name="metal" value="metal">
+            <label for="metal" style="color: white;">METAL</label>
+            <input type="checkbox" id="jazz" name="jazz" value="jazz">
+            <label for="jazz" style="color: white;">JAZZ</label>
+            <input type="checkbox" id="classical" name="classical" value="classical">
+            <label for="classical" style="color: white;">CLASSICA</label>
+        </div>
+        <div align="center">
+            <input type="checkbox" id="techno" name="techno" value="techno">
+            <label for="techno" style="color: white;">TECHNO</label>
+            <input type="checkbox" id="indie" name="indie" value="indie">
+            <label for="indie" style="color: white;">INDIE</label>
+            <input type="checkbox" id="rnb" name="rnb" value="rnb">
+            <label for="rnb" style="color: white;">RnB/SOUL</label>
+            <input type="checkbox" id="pop" name="pop" value="pop">
+            <label for="pop" style="color: white;">POP</label>
+        </div>
+        <div align="center">
+            <p>
+                <input type="radio" id="Accettazione termini e Condizioni" name="Accettazione termini e Condizioni"
+                    value="Accettazione termini e Condizioni">
+                <label for="Accettazione termini e Condizioni" style="color: white;">Accettazione termini e
+                    Condizioni</label>
+            </p>
+        </div>
+        <p align="center">
+            <button type="submit">INVIA LA TUA COLONNA SONORA!</button>
+        </p>
+        <img src="wave-symbol.jpg" alt="wave-symbol" height="50%" width="50%" style="display: block; margin: 0 auto;">
+    </form>
+</body>
+
+</html>
