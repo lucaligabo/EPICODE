@@ -13,4 +13,6 @@ STATUS: In Progess....
 
 Now at M1 - Python: From Zero to Hero
 
+- Variabili e tipi di dato - Complete
+
 I'll keep this update.
