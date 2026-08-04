@@ -9,3 +9,4 @@ nomi = ["Alice", "Martin", "Gianfranco", "Luca", "Giulia"]
 
 for numero, nome in enumerate(nomi, start=1):
     print(f"{numero}. {nome}")
+    
