@@ -1,24 +1,27 @@
 # EPICODE
-----------------------------------------
-Master Python, AI & Machine Learning
-----------------------------------------
 
-This main repository (/EPICODE) will house the various exercises and final projects.
-The "child" repositories you see are named according to the specific lesson.
-The repository containing the final project for each module will be named using the corresponding module code (e.g., M1 - Final project).
+## Master Python, AI & Machine Learning
 
-----------------------------------------
-STATUS: In Progess....
-----------------------------------------
+This repository contains the exercises, challenges, and projects developed during the EPICODE course in Python, AI, and Machine Learning.
 
-Now at:
-M1 - Python: From Zero to Hero
+The main folder acts as a central hub for all the course modules. Each child folder represents a specific lesson, exercise, or challenge.
+The final project for each module will be push in another main repository.
 
-- Variabili e tipi di dato - Complete
-- Programmazione ad oggetti e gestione eccezioni - Complete
+## Current status
 
-Modules Complete:
+In progress.
 
-xxxxx
+### Current module
 
-I'll keep this update.
+- M1 - Python: From Zero to Hero
+
+### Completed topics
+
+- Variables and data types
+- Object-oriented programming and exception handling
+
+### Repository structure
+
+The repository includes several lesson-based folders and challenge projects, such as HTML, CSS, frontend, and Python exercises.
+
+This file serves as the project overview for the repository.

@@ -1,5 +1,9 @@
-# Progetto 1 - Gestione di una biblioteca digitale
-# Implementazione commentata in italiano con accenti.
+# Progetto 1  
+
+#=====================================
+# Gestione di una biblioteca digitale
+#=====================================
+
 # - Parte 1: variabili e tipi di dati
 # - Parte 2: strutture dati (lista, dizionario, set)
 # - Parte 3: classi e OOP (Libro, Utente, Prestito)
@@ -11,6 +15,7 @@
 # 2) Numero di copie disponibili (intero)
 # 3) Prezzo medio di un libro (float)
 # 4) Stato disponibile/non disponibile (booleano)
+
 titolo_esempio = "Il Signore degli Anelli"   # stringa (esempio)
 copie_esempio = 5                            # intero (esempio)
 prezzo_medio = 18.50                         # float (esempio)
@@ -18,6 +23,7 @@ disponibile = copie_esempio > 0              # booleano (True se ci sono copie)
 
 # -----------------------
 # Parte 2 - Strutture dati
+
 # 1) Lista con almeno 5 titoli di libri
 titoli_libri = [
     "Il Signore degli Anelli",
@@ -39,8 +45,12 @@ copie_per_libro = {
 # 3) Insieme (set) con utenti registrati
 utenti_registrati = {"Luca", "Anna", "Marco"}
 
-# -----------------------
-# Eccezioni personalizzate
+
+# ------------------------
+# Eccezioni personalizzate - aggiunta personale
+# ------------------------
+# 
+
 # Usate per la Parte 4: gestione degli errori con try/except/raise
 class CopieNonDisponibiliError(Exception):
     # Errore sollevato quando un libro non ha copie disponibili.
@@ -50,8 +60,10 @@ class DurataPrestitoNonValidaError(ValueError):
     # Errore sollevato quando la durata del prestito non è valida.
     pass
 
+
 # -----------------------
 # Parte 3 - Classi e OOP
+
 # 1) Classe Libro con attributi titolo, autore, anno, copie_disponibili
 class Libro:
     # Rappresenta un libro presente nella biblioteca.
@@ -96,12 +108,15 @@ class Prestito:
             f'"{self.libro.titolo}" per {self.giorni} giorni.'
         )
 
+
 # -----------------------
 # Parte 4 - Funzionalità
+
 # Funzione presta_libro(utente, libro, giorni):
 # - Verifica se il libro ha almeno 1 copia (altrimenti raise CopieNonDisponibiliError)
 # - Verifica che giorni > 0 (altrimenti raise DurataPrestitoNonValidaError)
 # - Se ok: decrementa copie_disponibili e crea il Prestito
+
 def presta_libro(utente: Utente, libro: Libro, giorni: int) -> Prestito:
     # Registra e ritorna un oggetto Prestito oppure solleva un'eccezione.
     if giorni <= 0:
@@ -118,8 +133,10 @@ def presta_libro(utente: Utente, libro: Libro, giorni: int) -> Prestito:
     print(f'Prestito registrato: "{libro.titolo}" assegnato a {utente.nome}.')
     return prestito
 
+
 # -----------------------
 # Main: demo e simulazioni (inclusi try/except per mostrare la gestione degli errori)
+
 def main() -> None:
     # Stampa variabili di esempio (Parte 1)
     print("=== Variabili di esempio ===")
