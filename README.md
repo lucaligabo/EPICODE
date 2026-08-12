@@ -19,6 +19,7 @@ In progress.
 
 - Variables and data types
 - Object-oriented programming and exception handling
+- OOP Advaced Concepts - with PROGETTO 1
 
 ### Repository structure
 
