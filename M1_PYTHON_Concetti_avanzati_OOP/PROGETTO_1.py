@@ -46,9 +46,9 @@ copie_per_libro = {
 utenti_registrati = {"Luca", "Anna", "Marco"}
 
 
-# ------------------------
+# ---------------------------------------------
 # Eccezioni personalizzate - aggiunta personale
-# ------------------------
+# ---------------------------------------------
 # 
 
 # Usate per la Parte 4: gestione degli errori con try/except/raise
@@ -63,6 +63,7 @@ class DurataPrestitoNonValidaError(ValueError):
 
 # -----------------------
 # Parte 3 - Classi e OOP
+# -----------------------
 
 # 1) Classe Libro con attributi titolo, autore, anno, copie_disponibili
 class Libro:
@@ -111,6 +112,7 @@ class Prestito:
 
 # -----------------------
 # Parte 4 - Funzionalità
+# -----------------------
 
 # Funzione presta_libro(utente, libro, giorni):
 # - Verifica se il libro ha almeno 1 copia (altrimenti raise CopieNonDisponibiliError)
@@ -134,8 +136,10 @@ def presta_libro(utente: Utente, libro: Libro, giorni: int) -> Prestito:
     return prestito
 
 
-# -----------------------
+# -----------------------------------------------------------------------------------
 # Main: demo e simulazioni (inclusi try/except per mostrare la gestione degli errori)
+# -----------------------------------------------------------------------------------
+
 
 def main() -> None:
     # Stampa variabili di esempio (Parte 1)
