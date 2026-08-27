@@ -13,13 +13,11 @@ In progress.
 
 ### Current module
 
-- M1 - Python: From Zero to Hero
+- M2 Python for Data Science - in progess
 
-### Completed topics
+### Completed Module/topics
 
-- Variables and data types
-- Object-oriented programming and exception handling
-- OOP Advaced Concepts - with PROGETTO 1
+- M1 - Python: From Zero to Hero (Final project in the dedicated repository)
 
 ### Repository structure
 
